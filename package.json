@@ -1,0 +1,23 @@
+{
+  "name": "@darshika.dev/api_quiz",
+  "version": "1.0.0",
+  "description": "This is a cli quiz application built with typescipt using inquirer and chalk libraries, the mcq's are fetched via (opentdb.com) API",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["API Quiz"],
+  "author": "Darshika",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^2.6.11",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.22",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
